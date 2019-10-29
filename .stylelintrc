@@ -1,0 +1,54 @@
+"rules": {
+
+  "declaration-no-important": [true, {
+    "message": "Нельзя использовать !important"
+  }],
+
+  "string-quotes": ["double", {
+      "message": "Только двойные кавычки"
+  }],
+
+  "declaration-block-single-line-max-declarations": [1, {
+    "message": "Одна строка - одно правило"
+  }],
+
+  "declaration-block-trailing-semicolon": ["always", {
+    "message": "После каждого свойства должна быть ;"
+  }],
+
+  "block-closing-brace-newline-after": ["always", {
+    "message": "После «}» должен быть перенос"
+  }],
+
+  "selector-max-compound-selectors": [3, {
+    "message": "Четырёхсоставной селектор - нельзя"
+  }],
+
+  "selector-type-case": ["lower", {
+    "message": "Селектор -> toLowerCase"
+  }],
+
+  "selector-type-no-unknown": [true, {
+    "message": "Такого селектора - нет"
+  }],
+
+  "selector-max-empty-lines": [0, {
+    "message": "Пустые строки в селекторах - недопустимы"
+  }],
+
+  "indentation": [2, {
+    "message": "Количество отступов с использованием пробелов - 2"
+  }],
+
+  "max-empty-lines": [3, {
+    "message": "Максимум пустых линий — 3"
+  }],
+
+  "max-nesting-depth": [3, {
+    "message": "Вложения более 3 уровней — недопустимо"
+  }],
+
+  "no-extra-semicolons": [true, {
+    "message": "Две ; подряд - нельзя"
+  }],
+}
