@@ -1,0 +1,12 @@
+.service__block {
+  margin-top: 20px;
+  padding-bottom: 30px;
+  &:last-child {
+    padding-bottom: 0px;
+  }
+}
+.service__title {
+  text-align: left;
+  font-size: 22px;
+  line-height: 28px;
+}

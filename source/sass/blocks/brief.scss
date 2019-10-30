@@ -1,0 +1,27 @@
+.brief {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.brief__text {
+  text-align: left;
+  font-size: 18px;
+  line-height: 24px;
+}
+.brief__button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 100%;
+  height: 60px;
+  border-radius: 50px;
+  color: #ffffff;
+  background-color: #03973D;
+}
+.brief__help {
+  margin-top: 15px;
+}
+.brief__help-link {
+  color: #039BE6;
+}

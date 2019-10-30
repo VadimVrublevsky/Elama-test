@@ -1,0 +1,12 @@
+// Mobile
+.navigation__item {
+  padding: 10px;
+  text-align: center;
+}
+.navigation__link {
+  color: #1D1D39;
+  &--checked {
+    color: #039BE6;
+  }
+}
+

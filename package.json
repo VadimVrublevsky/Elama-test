@@ -1,7 +1,7 @@
 {
-  "name": "elama",
+  "name": "eLama",
   "version": "1.0.0",
-  "description": "this is a test task from elama",
+  "description": "this is a test task from eLama",
   "main": "gulpfile.js",
   "scripts": {
     "build": "gulp build",

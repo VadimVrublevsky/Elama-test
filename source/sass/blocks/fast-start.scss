@@ -1,0 +1,35 @@
+.fast-start {
+  margin-top: 30px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: #F2F3F8;
+}
+.fast-start__flex {
+  display: flex;
+  flex-direction: column;
+}
+.fast-start__title {
+  text-align: left;
+  font-size: 22px;
+  line-height: 28px;
+}
+.fast-start__button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 100%;
+  height: 60px;
+  border-radius: 50px;
+  color: #ffffff;
+  background-color: #03973D;
+  &--desktop {
+    display: none;
+  }
+}
+.fast-start__description {
+  margin-top: 20px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 24px;
+}

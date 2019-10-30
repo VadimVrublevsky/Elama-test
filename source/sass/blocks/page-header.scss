@@ -1,0 +1,19 @@
+.page-header {
+  width: 100%;
+}
+.page-header__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+.page-header__button-entrance {
+  margin-left: auto;
+  margin-right: 20px;
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+  color: #ffffff;
+  background-color: #039BE6;
+}
