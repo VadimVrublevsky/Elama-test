@@ -1,12 +1,6 @@
 .assistance {
   margin-top: 30px;
 }
-.assistance__container {
-
-}
-.assistance__block {
-
-}
 .assistance__title {
   text-align: left;
   font-size: 22px;
@@ -39,4 +33,18 @@
 }
 .assistance__help-link {
   color: #039BE6;
+}
+
+// tablet version
+@media (min-width: $tablet-width) {
+  .assistance {
+    margin-top: 80px;
+  }
+  .assistance__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .assistance__block {
+    width: 45%;
+  }
 }

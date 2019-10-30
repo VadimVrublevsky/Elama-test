@@ -1,4 +1,4 @@
-// Mobile
+// mobile version
 .navigation__item {
   padding: 10px;
   text-align: center;
@@ -10,3 +10,33 @@
   }
 }
 
+// JS
+.navigation--opened {
+  display: block;
+  animation-name: creepOut;
+  animation-duration: 0.6s;
+}
+.navigation--closed {
+  display: none;
+}
+.navigation--nojs {
+  display: block;
+}
+
+// Animation
+@keyframes creepOut {
+  0%   { transform: translateY(-2000px); }
+  70%  { transform: translateY(30px);	   }
+  90%  { transform: translateY(-10px);   }
+  100% { transform: translateY(0px);     }
+}
+
+// tablet version
+@media (min-width: $tablet-width) {
+  .navigation {
+    display: block;
+  }
+  .navigation__list {
+    display: flex;
+  }
+}

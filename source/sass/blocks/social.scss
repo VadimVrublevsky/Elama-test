@@ -1,11 +1,18 @@
+// mobile version
 .social {
   padding-bottom: 15px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: space-around;
-  border-bottom: 1px solid rgba(196, 196, 196, 0.1);
 }
 .social__item {
   margin-top: 20px;
+}
+
+// tablet version
+@media (min-width: $tablet-width) {
+  .social {
+    width: 400px;
+  }
 }

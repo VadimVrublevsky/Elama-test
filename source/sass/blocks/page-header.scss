@@ -1,3 +1,4 @@
+// mobile version
 .page-header {
   width: 100%;
 }
@@ -16,4 +17,28 @@
   border-radius: 50px;
   color: #ffffff;
   background-color: #039BE6;
+  &--tablet {
+    display: none;
+  }
+}
+
+// tablet version
+@media (min-width: $tablet-width) {
+  .page-header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .page-header__button {
+    display: none;
+  }
+  .page-header__button-entrance {
+    margin: 0;
+    &--mobile {
+      display: none;
+    }
+    &--tablet {
+      display: block;
+    }
+  }
 }

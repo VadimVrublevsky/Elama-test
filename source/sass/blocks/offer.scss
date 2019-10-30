@@ -1,3 +1,4 @@
+// mobile version
 .offer__item {
   padding: 20px;
   margin-top: 30px;
@@ -7,7 +8,7 @@
 .offer__block {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 .offer__title {
   width: 75%;
@@ -20,4 +21,22 @@
   text-align: left;
   font-size: 16px;
   line-height: 24px;
+}
+
+// tablet version
+@media (min-width: $tablet-width) {
+  .offer__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .offer__item {
+    width: 25%;
+  }
+  .offer__block {
+    flex-direction: column;
+  }
+  .offer__title {
+    margin-top: 30px;
+    width: 100%;
+  }
 }

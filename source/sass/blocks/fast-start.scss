@@ -1,3 +1,4 @@
+// mobile version
 .fast-start {
   margin-top: 30px;
   padding-bottom: 15px;
@@ -23,7 +24,7 @@
   border-radius: 50px;
   color: #ffffff;
   background-color: #03973D;
-  &--desktop {
+  &--tablet {
     display: none;
   }
 }
@@ -32,4 +33,35 @@
   text-align: left;
   font-size: 18px;
   line-height: 24px;
+}
+
+// tablet version
+@media (min-width: $tablet-width) {
+  .fast-start {
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  .fast-start__block {
+    display: flex;
+    justify-content: space-between;
+  }
+  .fast-start__button {
+    &--mobile {
+      display: none;
+    }
+    &--tablet {
+      display: block;
+    }
+  }
+  .fast-start__block-container {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+  }
+  .fast-start__description {
+    &:first-child {
+      margin-top: 0;
+    }
+  }
 }

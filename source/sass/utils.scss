@@ -25,6 +25,13 @@ button {
 }
 a {
   text-decoration: none;
+  &:hover,
+  &:focus {
+    color: rgb(21, 50, 216);
+  }
+  &:active {
+    color: rgb(2, 20, 121);
+  }
 }
 ul {
   margin: 0;

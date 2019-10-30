@@ -1,4 +1,5 @@
-.brief {
+// mobile
+.brief__flex {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,4 +25,22 @@
 }
 .brief__help-link {
   color: #039BE6;
+}
+
+// tablet version
+@media (min-width: $tablet-width) {
+  .brief {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  .brief__text {
+    width: 45%;
+  }
+  .brief__flex {
+    width: 45%;
+  }
+  .brief__button {
+    margin: 0;
+  }
 }
