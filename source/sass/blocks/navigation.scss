@@ -40,3 +40,15 @@
     display: flex;
   }
 }
+
+// desktop version
+@media (min-width: $desktop-width) {
+  .navigation__list {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .navigation__item {
+    padding: 0;
+    margin-right: 40px;
+  }
+}

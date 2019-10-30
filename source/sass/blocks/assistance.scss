@@ -1,3 +1,4 @@
+// mobile version
 .assistance {
   margin-top: 30px;
 }
@@ -5,12 +6,14 @@
   text-align: left;
   font-size: 22px;
   line-height: 28px;
+  color: #1D1D39;
 }
 .assistance__description {
   margin-top: 20px;
   text-align: left;
   font-size: 18px;
   line-height: 24px;
+  color: #333333;
 }
 .assistance__flex {
   display: flex;
@@ -46,5 +49,48 @@
   }
   .assistance__block {
     width: 45%;
+  }
+}
+
+// desktop version
+@media (min-width: $desktop-width) {
+  .assistance {
+    padding-bottom: 180px;
+  }
+  .assistance__title {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .assistance__block {
+    width: 560px;
+  }
+  .assistance__description {
+    width: 473px;
+    margin-top: 60px;
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .assistance__image {
+    width: 395px;
+    height: 350px;
+  }
+  .assistance__flex {
+    margin-top: 40px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .assistance__button {
+    width: 189px;
+    margin: 0;
+    margin-right: 31px;
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .assistance__help {
+    margin: 0;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 21px;
   }
 }

@@ -8,6 +8,7 @@
   text-align: left;
   font-size: 18px;
   line-height: 24px;
+  color: #333333;
 }
 .brief__button {
   display: block;
@@ -42,5 +43,51 @@
   }
   .brief__button {
     margin: 0;
+  }
+}
+
+// desktop version
+@media (min-width: $desktop-width) {
+  .brief {
+    position: absolute;
+    top: -7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 690px;
+    padding-left: 40px;
+    padding-right: 40px;
+    min-height: 175px;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    &:after {
+      content: "";
+      position: absolute;
+      top: 140px;
+      right: -36px;
+      width: 44px;
+      height: 38px;
+      background-image: url("../../img/rast/Polygon.png");
+      transform: rotate(90deg);
+    }
+  }
+  .brief__flex {
+    margin-top: 38px;
+    width: auto;
+  }
+  .brief__text {
+    width: auto;
+    margin-top: 46px;
+    margin-right: 25px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .brief__button {
+    width: 189px;
+  }
+  .brief__help {
+    font-size: 14px;
+    line-height: 21px;
   }
 }

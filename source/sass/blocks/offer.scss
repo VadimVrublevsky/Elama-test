@@ -15,12 +15,14 @@
   font-size: 18px;
   line-height: 20px;
   text-align: left;
+  color: #1D1D39;
 }
 .offer__description {
   margin-top: 15px;
   text-align: left;
   font-size: 16px;
   line-height: 24px;
+  color: #333333;
 }
 
 // tablet version
@@ -38,5 +40,28 @@
   .offer__title {
     margin-top: 30px;
     width: 100%;
+  }
+}
+
+// desktop version
+@media (min-width: $desktop-width) {
+  .offer__item {
+    padding: 0;
+    margin-top: 0;
+    width: 343px;
+    box-shadow: none;
+    background-color: #FFFFFF;
+  }
+  .offer__block {
+    margin-top: 80px;
+  }
+  .offer__title {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .offer__description {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 26px;
   }
 }

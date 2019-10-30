@@ -42,3 +42,25 @@
     }
   }
 }
+
+// desktop version
+@media (min-width: $desktop-width) {
+  .page-header__container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .page-header__block {
+    margin-right: 178px;
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+  .page-header__navigation {
+    margin-right: auto;
+  }
+  .page-header__logo-image {
+    width: 122px;
+  }
+  .page-header__button-entrance {
+    margin-right: 0;
+  }
+}

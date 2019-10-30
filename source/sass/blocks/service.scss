@@ -11,3 +11,18 @@
   font-size: 22px;
   line-height: 28px;
 }
+
+// desktop version
+@media (min-width: $desktop-width) {
+  .service {
+    position: relative;
+  }
+  .service__block {
+    margin-top: 0;
+  }
+  .service__title {
+    padding-top: 275px;
+    font-size: 36px;
+    line-height: 48px;
+  }
+}

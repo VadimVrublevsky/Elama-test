@@ -4,7 +4,8 @@
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
 }
 .social__item {
   margin-top: 20px;
@@ -14,5 +15,17 @@
 @media (min-width: $tablet-width) {
   .social {
     width: 400px;
+  }
+}
+
+// desktop version
+@media (min-width: $desktop-width) {
+  .social {
+    margin: 0;
+    margin-right: 20px;
+    width: 200px;
+  }
+  .social__item {
+    margin: 0;
   }
 }

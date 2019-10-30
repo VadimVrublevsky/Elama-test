@@ -5,14 +5,11 @@
   padding-top: 15px;
   background-color: #F2F3F8;
 }
-.fast-start__flex {
-  display: flex;
-  flex-direction: column;
-}
 .fast-start__title {
   text-align: left;
   font-size: 22px;
   line-height: 28px;
+  color: #1D1D39;
 }
 .fast-start__button {
   display: block;
@@ -33,6 +30,7 @@
   text-align: left;
   font-size: 18px;
   line-height: 24px;
+  color: #333333;
 }
 
 // tablet version
@@ -62,6 +60,67 @@
   .fast-start__description {
     &:first-child {
       margin-top: 0;
+    }
+  }
+}
+
+// desktop version
+@media (min-width: $desktop-width) {
+  .fast-start {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin: 0;
+  }
+  .fast-start__block {
+    position: relative;
+    align-items: center;
+    &:before {
+      content: "";
+      position: absolute;
+      top: -30px;
+      left: 225px;
+      width: 224px;
+      height: 52px;
+      background-image: url("../../img/rast/curveArrow.png");
+      background-repeat: no-repeat;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      top: 93px;
+      right: 285px;
+      width: 100px;
+      height: 15px;
+      background-image: url("../../img/rast/straightArrow.png");
+      background-repeat: no-repeat;
+    }
+  }
+  .fast-start__block-container {
+    width: auto;
+    &--desktop {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  .fast-start__title {
+    width: 365px;
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .fast-start__button {
+    margin: 0;
+    margin-top: 40px;
+    width: 189px;
+  }
+  .fast-start__description {
+    margin: 0;
+    width: 250px;
+    font-size: 16px;
+    line-height: 28px;
+    &:first-child {
+      width: 284px;
+      margin-right: 146px;
     }
   }
 }

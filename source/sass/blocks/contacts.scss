@@ -33,9 +33,6 @@
     justify-content: space-between;
     flex-wrap: wrap;
   }
-  .contacts__item {
-
-  }
   .contacts__link {
     font-size: 16px;
     line-height: 20px;
@@ -44,5 +41,25 @@
     font-size: 14px;
     line-height: 20px;
     text-align: left;
+  }
+}
+
+// desktop version
+@media (min-width: $desktop-width) {
+  .contacts__item {
+    margin: 0;
+    padding: 0;
+    width: 148px;
+    margin-right: 50px;
+    &--logo {
+      width: 50px;
+    }
+  }
+  .contacts__link {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .contacts__description {
+    line-height: 26px;
   }
 }
