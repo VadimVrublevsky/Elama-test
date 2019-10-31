@@ -17,20 +17,22 @@
 }
 .page-footer__item {
   margin-top: 15px;
-  &--arrow {
-    position: relative;
-  }
-  &--arrow::after {
-    content: "";
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    top: 0;
-    right: 0;
-  }
 }
 .page-footer__item-link {
   color: #039BE6;
+  &--arrow {
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      top: -1px;
+      right: -12px;
+      width: 8px;
+      height: 8px;
+      background-image: url("../img/vector/icon-blueArrow.svg");
+      background-repeat: no-repeat;
+    }
+  }
 }
 .page-footer__policy {
   margin-top: 20px;
