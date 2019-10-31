@@ -20,6 +20,12 @@
   flex-direction: column;
   align-items: center;
 }
+.assistance__image {
+  display: block;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .assistance__button {
   display: block;
   margin-left: auto;
@@ -49,6 +55,9 @@
   }
   .assistance__block {
     width: 45%;
+  }
+  .assistance__image {
+    padding-bottom: 0px;
   }
 }
 
